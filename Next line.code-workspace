@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../Next line"
+		},
+		{
+			"path": "../PaginaDePractica"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PaginahojasDeVida"
+	}
+}

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --padding-container: 100px 0;
+    --color-title: #001A49; 
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+
+.hederDiseno{
+    background: cadetblue;
+} 
+
+
+.container{
+    width: 90%;
+    max-width:  1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+/* NAV */
+.nav{
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navLogo{
+display: flex;
+align-items: center;
+margin-top: 25px;
+margin-bottom: 20px;
+
+}
+
+.LogoText{
+    color: white;
+}
+
+
+.nav__link{
+    margin-left: auto;
+    padding: 0%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.navItems{
+    list-style: none;
+}
+
+.nav__link{
+    margin-left: auto;
+    padding: 0%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.navLinks{
+    color: #fff ;
+    text-decoration: none;
+}
+
+
+
+
+
+.ParteIzquierda{
+   background-color: honeydew;
+   height: 150vh;
+   width: 25%;
+   text-align: center;
+}
+
+.ParteDerecha{
+width: 75%;
+height: 150vh;
+text-align: center;
+background-color:snow;
+}
+
+#pantallaDividida{
+    display: flex;
+    margin: 0vh   10vh   0vh ;
+}
+
+
+.imgPortada{
+    width: 30vh;
+    margin: 5vh;
+    
+}
+/*Parte Izquierda*/
+
+#DatosPersonalesDiv{
+    font-size: 2vh;
+   margin: 3vh ;
+}
+#PerfilProfecionalDiv{
+    font-size: 2vh;
+}
+
+#IdiomasDiv{
+    font-size: 2vh;
+    margin: 3vh ;
+}
+
+/*Parte derecha*/
+#EducacionDiv{
+    font-size: 2vh;
+}
+.textoEducacion{
+    margin-top: 2vh;   
+}
+
+#ExperienciaLaboralDiv{
+    font-size: 2vh;
+    margin-top: 2vh;  
+}
+
+.textExperenciaText{
+    margin-left: 30vh;
+    margin-right: 30vh;
+}
+
+#HabilidadesDiv{
+    font-size: 2vh;
+    margin-top: 2vh;  
+}
+
+#RefereciasDiv{
+    font-size: 2vh;
+    margin-top: 2vh;  
+}
+
+/*Fooder*/
+.FooderDiseno{
+    background-color: rgb(192, 192, 192);
+}
+
+.containerFotter{
+    width: 90%;
+    max-width:  1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}

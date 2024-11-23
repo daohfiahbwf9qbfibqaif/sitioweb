@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --padding-container: 100px 0;
+    --color-title: #001A49; 
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+
+.hederDiseno{
+    background: cadetblue;
+} 
+
+
+.container{
+    width: 90%;
+    max-width:  1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+/* NAV */
+.nav{
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navLogo{
+display: flex;
+align-items: center;
+margin-top: 25px;
+margin-bottom: 20px;
+
+}
+
+.LogoText{
+    color: white;
+}
+
+
+.nav__link{
+    margin-left: auto;
+    padding: 0%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.navItems{
+    list-style: none;
+}
+
+.nav__link{
+    margin-left: auto;
+    padding: 0%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.navLinks{
+    color: #fff ;
+    text-decoration: none;
+}
+
+.SectionAcercaDe{
+    background-color: #fff;
+    font-size: 2vh;
+  }
+  
+  .titleAcerca{
+    text-align: center;
+  }
+  .textAcerca{
+    text-align: center;
+  }
+
+  /* Hoja de  vida  numero  1*/
+  .SectionFirstPerson{
+    width: 100%;
+    max-width:  1600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+    display: flex;
+  }
+
+  .FotoFirstPerson{
+    background-color: #c2c2c2;
+    width: 250px;
+    border-radius: 50%;
+   
+  }
+
+.contTextoFirstPerson{
+    margin: 0 auto;
+    font-size: 30px;
+    margin-left: 50px;
+} 
+.ButtonFirstPerson{
+   background-color: cadetblue;
+   margin-top: 30px;
+   border-color: #000000;
+   cursor: pointer;
+}
+.texBotton{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*Pie de  pagina */
+
+.FooderDiseno{
+    background-color: rgb(192, 192, 192);
+}
+
+.containerFotter{
+    width: 90%;
+    max-width:  1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+@media (max-width:1001px){
+    .SectionFirstPerson{
+        width: 100%;
+        max-width:  1600px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: var(--padding-container);
+        display:grid;
+      }
+
+}
